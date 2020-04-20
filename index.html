@@ -166,6 +166,30 @@
 </tbody></table>
     <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
       <tr>
+        <td width="33%" valign="top"><a href="files/speech2face/dp.png" target="blank"><img src="files/speech2face/dp.png" alt="speech2face" width="90%" height="50%" style="border-radius:15px"></a></td>
+        <td width="67%" valign="top">
+          <p><a href="files/speech2face/report.pdf" target="blank" id="asr19">
+          <heading>Speech2Face : Learning the Face Behind a Voice</heading></a><br>
+          <b>Saiteja Talluri</b>, Ankit, Neelesh Verma<br>
+          <em>Automatic Speech Recognition</em>, Autumn '19, IIT Bombay.
+          <br></p>
+
+          <div class="paper" id="Asr19">
+          <a href="files/speech2face/report.pdf" target="blank">pdf</a> |
+          <a href="files/speech2face/presentation.pdf" target="blank">presentation</a> |
+          <a href="javascript:toggleblock(&#39;asr19_abs&#39;)">abstract</a> |
+          <a href="https://github.com/saiteja-talluri/Speech2Face" target="blank">code</a>
+          <p align="justify"> <i id="asr19_abs" style="display: none;">
+            In this project, the main motivation was to infer about a person's look from the way they speak. We design and train a deep neural network to 
+            perform this task using thousands of natural YouTube videos of people speaking. During training, our model learns voice-face correlations and 
+            then we used it for voice recognition to evaluate the efficiency of our model. The training is done in a self-supervised manner, by utilizing 
+            the natural co-occurrence of faces and speech in Internet videos, without the need to model attributes explicitly.
+          </i></p>
+          </div>
+        </td>
+    </tr>
+
+      <tr>
         <td width="33%" valign="top"><a href="files/context-aware-captioning/dp.png" target="blank"><img src="files/context-aware-captioning/dp.png" alt="captioning" width="90%" style="border-radius:15px"></a></td>
         <td width="67%" valign="top">
           <p><a href="files/vector-valued-regularization/report.pdf" target="blank" id="cv19">
@@ -244,7 +268,7 @@
       <tr>
         <td width="33%" valign="top"><a href="files/panasonic/face_landmarks.jpg" target="blank"><img src="files/panasonic/face_landmarks.jpg" alt="landmarks" width="90%" style="border-radius:15px"></a></td>
         <td width="67%" valign="top">
-          <p><a href="#pana19" target="blank" id="pana19">
+          <p><a href="#pana19" id="pana19">
           <heading>End to End pipeline for Digital Signage Analytics</heading></a><br>
           Machine Learning Intern, Panasonic Innovation Center <br>
           Bangalore, India, Summer 2019
@@ -383,6 +407,9 @@ hideallbibs();
 <script xml:space="preserve" language="JavaScript">
 hideblock('hierqg20_abs');
 </script>
+<script xml:space="preserve" language="JavaScript">
+  hideblock('asr19_abs');
+  </script>
 <script xml:space="preserve" language="JavaScript">
 hideblock('cv19_abs');
 </script>
